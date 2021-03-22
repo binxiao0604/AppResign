@@ -14,6 +14,7 @@
 		BF55861E260866A700061031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF55861D260866A700061031 /* Assets.xcassets */; };
 		BF558621260866A700061031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF55861F260866A700061031 /* LaunchScreen.storyboard */; };
 		BF558624260866A700061031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF558623260866A700061031 /* main.m */; };
+		BF55863226087D7100061031 /* Redeme.md in Resources */ = {isa = PBXBuildFile; fileRef = BF55863126087D7100061031 /* Redeme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BF558620260866A700061031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF558622260866A700061031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF558623260866A700061031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF55863126087D7100061031 /* Redeme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Redeme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		BF558605260866A500061031 = {
 			isa = PBXGroup;
 			children = (
+				BF55863126087D7100061031 /* Redeme.md */,
 				BF558610260866A500061031 /* AppResign */,
 				BF55860F260866A500061031 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			files = (
 				BF558621260866A700061031 /* LaunchScreen.storyboard in Resources */,
 				BF55861E260866A700061031 /* Assets.xcassets in Resources */,
+				BF55863226087D7100061031 /* Redeme.md in Resources */,
 				BF55861C260866A500061031 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,7 +161,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./appResign.sh\n";
+			shellScript = "#./appResign.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
